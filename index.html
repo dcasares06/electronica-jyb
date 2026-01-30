@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electrónica JyB</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+    body { background: #f4f6f8; color: #222; }
+    header { background: #0f172a; color: #fff; padding: 20px; }
+    header h1 { font-size: 2rem; }
+    header p { margin-top: 5px; color: #cbd5f5; }
+
+    .container { max-width: 1100px; margin: auto; padding: 20px; }
+
+    .hero { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: center; }
+    .hero-text h2 { font-size: 1.8rem; margin-bottom: 10px; }
+    .hero-text p { line-height: 1.6; }
+    .hero-icon { text-align: center; font-size: 6rem; }
+
+    .products { margin-top: 40px; }
+    .products h2 { margin-bottom: 20px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+
+    .card { background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
+    .card h3 { margin-bottom: 8px; }
+    .card p { font-size: 0.9rem; color: #555; }
+
+    .contact { margin-top: 40px; background: #e2e8f0; padding: 25px; border-radius: 12px; text-align: center; }
+    .contact a { display: inline-block; margin-top: 15px; background: #22c55e; color: #fff; padding: 12px 20px; border-radius: 30px; text-decoration: none; font-weight: bold; }
+    .contact a:hover { background: #16a34a; }
+
+    footer { margin-top: 40px; padding: 15px; text-align: center; font-size: 0.85rem; color: #666; }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Electrónica JyB</h1>
+      <p>Productos de electrónica para el hogar</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Tu lugar de confianza en electrónica</h2>
+        <p>
+          En Electrónica JyB ofrecemos productos de electrónica hogareña.
+          Contamos con stock limitado y también trabajamos por encargo,
+          trayendo el producto que necesitás al mejor precio posible.
+        </p>
+      </div>
+      <div class="hero-icon">🎮🎧</div>
+    </section>
+
+    <section class="products">
+      <h2>Productos que trabajamos</h2>
+      <div class="grid">
+        <div class="card"><h3>Auriculares</h3><p>Con cable e inalámbricos</p></div>
+        <div class="card"><h3>TV Box</h3><p>Convertí tu TV en Smart</p></div>
+        <div class="card"><h3>Mouse y Teclados</h3><p>Para trabajo y gaming</p></div>
+        <div class="card"><h3>Parlantes Bluetooth</h3><p>Portátiles y potentes</p></div>
+        <div class="card"><h3>Pendrives</h3><p>Diferentes capacidades</p></div>
+        <div class="card"><h3>Zapatillas eléctricas</h3><p>Alargues con enchufes</p></div>
+        <div class="card"><h3>Joysticks Play</h3><p>PlayStation 2, 3 y 4</p></div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contacto</h2>
+      <p>Consultá precios y disponibilidad sin compromiso</p>
+      <a href="https://wa.me/541130587205" target="_blank">💬 Contactar por WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Electrónica JyB · Emprendimiento local
+  </footer>
+
+</body>
+</html>
